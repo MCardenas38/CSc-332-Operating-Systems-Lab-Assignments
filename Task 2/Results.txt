@@ -1,0 +1,11 @@
+C1 Value of A: 35 B: 25 Process_ID: 9639
+C1 Value of A: 35 B: 45 Process_ID: 9639
+P Value of A: 10 B: 30 Process_ID: 9638
+C2 Value of A: 905 B: 25 Process_ID: 9640
+
+P Value of A: 10 B: 30 Process_ID: 9641
+C1 Value of A: 35 B: 25 Process_ID: 9642
+C1 Value of A: 35 B: 45 Process_ID: 9642
+C2 Value of A: 905 B: 25 Process_ID: 9643
+
+
