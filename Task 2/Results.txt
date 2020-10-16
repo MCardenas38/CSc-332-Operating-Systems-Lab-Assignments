@@ -3,9 +3,9 @@ C1 Value of A: 35 B: 25 Process_ID: 9642
 C1 Value of A: 35 B: 45 Process_ID: 9642
 C2 Value of A: 905 B: 25 Process_ID: 9643
 
-Each thread has its own copy of the global variables which the threads can't affect. Therefore, the parent and the first child has the same A and B variables 
+Each process has its own copy of the global variables which the processes can't affect. Therefore, the parent and the first child has the same A and B variables 
 but when the parent modifies it's B value it doesn't affect the first child's B value and the same for when the first child modifies its B value. The same 
 holds true for the first and second child. The second child inherited the updated A value from the first child since it was forked after the A value was 
 updated. When the second child updates its A value it does not change the first child's A value as the update to B in the first child does not change B's 
-value in the second child. The parent, first, and second child processes are also running in parallel so there execution times are independent of each other,
+value in the second child. The parent, first, and second child processes are also running in concurrently so there execution times are independent of each other,
 leading to a different arrangment of the output each time you run the code.
